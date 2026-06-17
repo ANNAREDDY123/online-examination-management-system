@@ -18,8 +18,7 @@ class ExamCreate(BaseModel):
 
 
 class ExamResponse(
-    ExamCreate
-):
+    ExamCreate):
 
     id: int
 
