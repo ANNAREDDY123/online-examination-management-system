@@ -1,0 +1,30 @@
+from pydantic import (
+    BaseModel
+)
+
+
+class QuestionCreate(BaseModel):
+
+    exam_id: int
+
+    question_text: str
+
+    option_a: str
+
+    option_b: str
+
+    option_c: str
+
+    option_d: str
+
+    correct_answer: str
+
+
+class QuestionResponse(
+    QuestionCreate
+):
+
+    id: int
+
+    class Config:
+        from_attributes = True
