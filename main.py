@@ -47,5 +47,4 @@ def home():
 
     return {
         "message":
-        "Online Examination Management System"
-    }
+        "Online Examination Management System"}
