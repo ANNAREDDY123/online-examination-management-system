@@ -54,11 +54,7 @@ A FastAPI-based backend application for managing students, exams, questions, att
 - GET /results
 - GET /results/leaderboard
 
-## Run Project
 
-pip install -r requirements.txt
-
-uvicorn main:app --reload
 
 ## Swagger
 
