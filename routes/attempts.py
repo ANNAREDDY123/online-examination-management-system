@@ -168,8 +168,7 @@ def get_attempt(
 @router.get("/")
 def get_attempts(
     status: str = None,
-    db: Session = Depends(get_db)
-):
+    db: Session = Depends(get_db)):
 
     query = db.query(Attempt)
 
