@@ -19,8 +19,7 @@ class Question(Base):
 
     exam_id = Column(
         Integer,
-        ForeignKey("exams.id")
-    )
+        ForeignKey("exams.id"))
 
     question_text = Column(String)
 
